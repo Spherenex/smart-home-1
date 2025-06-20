@@ -5,14 +5,14 @@ import { getDatabase } from "firebase/database";
 // Your web app's Firebase configuration
 // Replace these values with your actual Firebase project configuration
 const firebaseConfig = {
-     apiKey: "AIzaSyAhLCi6JBT5ELkAFxTplKBBDdRdpATzQxI",
-  authDomain: "smart-medicine-vending-machine.firebaseapp.com",
-  databaseURL: "https://smart-medicine-vending-machine-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "smart-medicine-vending-machine",
-  storageBucket: "smart-medicine-vending-machine.firebasestorage.app",
-  messagingSenderId: "705021997077",
-  appId: "1:705021997077:web:5af9ec0b267e597e1d5e1c",
-  measurementId: "G-PH0XLJSYVS"
+     apiKey: "AIzaSyBzXzocbdytn4N8vLrT-V2JYZ8pgqWrbC0",
+  authDomain: "self-balancing-7a9fe.firebaseapp.com",
+  databaseURL: "https://self-balancing-7a9fe-default-rtdb.firebaseio.com",
+  projectId: "self-balancing-7a9fe",
+  storageBucket: "self-balancing-7a9fe.firebasestorage.app",
+  messagingSenderId: "1044959372723",
+  appId: "1:1044959372723:web:609b6c64f6b1b058ba97c6",
+  measurementId: "G-V6DEXSSVZ4"
 };
 
 // Initialize Firebase

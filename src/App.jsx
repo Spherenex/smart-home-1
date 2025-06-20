@@ -1,24 +1,21 @@
-import { useState } from 'react'
-import Vibration from '../src/components/vibration'
-import './App.css'
-import LineFallDetectionDashboard from './components/Linefall'
-import SingleAxis from './components/SingleAxis'
-import TransformerPrediction from './components/TranformerPrediction'
-import TransformerService from './components/TransformerService'
-import JetEngineMonitor from './components/Jetdatalog'
-function App() {
-  const [count, setCount] = useState(0)
+import React from 'react';
+import SmartHomeInterface from '../src/components/SmartHomeInterface';
+import './App.css'; // Assuming you have an App.css file for global styles
 
+function App() {
   return (
-    <>
-      {/* <Vibration/> */}
-      {/* <LineFallDetectionDashboard /> */}
-      {/* <SingleAxis/> */}
-      <TransformerPrediction />
-      {/* <TransformerService /> */}
-      {/* <JetEngineMonitor /> */}
-    </>
-  )
+    <div className="App">
+      <header className="App-header">
+        <h1>My Smart Home</h1>
+      </header>
+      <main>
+        <SmartHomeInterface />
+      </main>
+      <footer>
+        <p>© 2025 Smart Home Control System</p>
+      </footer>
+    </div>
+  );
 }
 
-export default App
+export default App;
