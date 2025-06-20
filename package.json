@@ -12,6 +12,7 @@
   "dependencies": {
     "@tensorflow-models/handpose": "^0.1.0",
     "@tensorflow/tfjs": "^4.22.0",
+    "face-api.js": "^0.22.2",
     "firebase": "^11.6.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
